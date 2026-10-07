@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-10-07T10:52:01.658389+09:00",
+  "status": "sample_complete_with_accessible_materials; unpublished",
+  "browser": "Chromium via Playwright",
+  "scenarios": [
+    {
+      "viewport": "320x800",
+      "result": "pass",
+      "checks": [
+        "all eight HTML images loaded with alt attributes, plus source logo displayed",
+        "no extra image cropping; aspect ratios retained",
+        "white background and no horizontal overflow",
+        "four menu names and eight prices match supplied menu",
+        "specified opening hours and Monday closure",
+        "anchor/button/logo navigation and keyboard skip link",
+        "Instagram and Maps URL syntax/source match",
+        "no JS or asset errors; no third-party requests"
+      ]
+    },
+    {
+      "viewport": "390x844",
+      "result": "pass",
+      "checks": [
+        "all eight HTML images loaded with alt attributes, plus source logo displayed",
+        "no extra image cropping; aspect ratios retained",
+        "white background and no horizontal overflow",
+        "four menu names and eight prices match supplied menu",
+        "specified opening hours and Monday closure",
+        "anchor/button/logo navigation and keyboard skip link",
+        "Instagram and Maps URL syntax/source match",
+        "no JS or asset errors; no third-party requests"
+      ]
+    },
+    {
+      "viewport": "768x1024",
+      "result": "pass",
+      "checks": [
+        "all eight HTML images loaded with alt attributes, plus source logo displayed",
+        "no extra image cropping; aspect ratios retained",
+        "white background and no horizontal overflow",
+        "four menu names and eight prices match supplied menu",
+        "specified opening hours and Monday closure",
+        "anchor/button/logo navigation and keyboard skip link",
+        "Instagram and Maps URL syntax/source match",
+        "no JS or asset errors; no third-party requests"
+      ]
+    },
+    {
+      "viewport": "1024x900",
+      "result": "pass",
+      "checks": [
+        "all eight HTML images loaded with alt attributes, plus source logo displayed",
+        "no extra image cropping; aspect ratios retained",
+        "white background and no horizontal overflow",
+        "four menu names and eight prices match supplied menu",
+        "specified opening hours and Monday closure",
+        "anchor/button/logo navigation and keyboard skip link",
+        "Instagram and Maps URL syntax/source match",
+        "no JS or asset errors; no third-party requests"
+      ]
+    },
+    {
+      "viewport": "1440x1000",
+      "result": "pass",
+      "checks": [
+        "all eight HTML images loaded with alt attributes, plus source logo displayed",
+        "no extra image cropping; aspect ratios retained",
+        "white background and no horizontal overflow",
+        "four menu names and eight prices match supplied menu",
+        "specified opening hours and Monday closure",
+        "anchor/button/logo navigation and keyboard skip link",
+        "Instagram and Maps URL syntax/source match",
+        "no JS or asset errors; no third-party requests"
+      ]
+    }
+  ],
+  "scenario_evidence": "Five PASS outcomes printed by final browser run; each scenario completed before separate file:// check was blocked",
+  "file_protocol_preview": "not verified: cloud browser returned ERR_BLOCKED_BY_ADMINISTRATOR for file://; local HTTP preview passed all five viewports",
+  "image_files_received": 25,
+  "unique_image_contents": 24,
+  "originals_preserved": true,
+  "existing_store_files_unchanged": [
+    "README.md",
+    "forest/index.html",
+    "forest/script.js",
+    "forest/styles.css",
+    "forest/forest/index.html",
+    "forest/forest/script.js",
+    "forest/forest/styles.css"
+  ],
+  "limitations": [
+    "second uploaded ZIP exceeded 32 MiB transfer limit and could not be inspected; user authorized using accessible images",
+    "standalone logo JPG not received; actual logo from supplied menu poster displayed through SVG viewport",
+    "Instagram and Google Maps external destination pages not visited",
+    "current prices, menu availability, opening hours, takeout box conditions and address need store confirmation before publication",
+    "no shared interactive preview URL; verified browser screenshots and downloadable site supplied"
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "file": "images/tacos-800.webp",
+    "source": "images/originals/メニュー・その他 - コピー/10c82bae-ce8d-4d22-a60c-8521a264610d.jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 113238,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only"
+  },
+  {
+    "file": "images/tacos-1600.webp",
+    "source": "images/originals/メニュー・その他 - コピー/10c82bae-ce8d-4d22-a60c-8521a264610d.jpg",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 310896,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only"
+  },
+  {
+    "file": "images/shop-bag-600.webp",
+    "source": "images/originals/メニュー・その他 - コピー/IMG_1466.jpeg",
+    "width": 600,
+    "height": 800,
+    "bytes": 77452,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only"
+  },
+  {
+    "file": "images/shop-bag-1200.webp",
+    "source": "images/originals/メニュー・その他 - コピー/IMG_1466.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 260596,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only"
+  },
+  {
+    "file": "images/welcome-320.webp",
+    "source": "images/originals/メニュー・その他 - コピー/98BCC42A-FF85-41B6-A9E2-F93A8182A017.png",
+    "width": 320,
+    "height": 320,
+    "bytes": 65096,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only"
+  },
+  {
+    "file": "images/chicken-480.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164514.jpg",
+    "width": 480,
+    "height": 480,
+    "bytes": 41600,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/chicken-960.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164514.jpg",
+    "width": 960,
+    "height": 960,
+    "bytes": 123660,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/bistec-480.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164518.jpg",
+    "width": 480,
+    "height": 480,
+    "bytes": 43002,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/bistec-960.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164518.jpg",
+    "width": 960,
+    "height": 960,
+    "bytes": 131694,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/shrimp-480.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164519.jpg",
+    "width": 480,
+    "height": 480,
+    "bytes": 39786,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/shrimp-960.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164519.jpg",
+    "width": 960,
+    "height": 960,
+    "bytes": 116798,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/carnitas-480.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164521.jpg",
+    "width": 480,
+    "height": 480,
+    "bytes": 44340,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/carnitas-960.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164521.jpg",
+    "width": 960,
+    "height": 960,
+    "bytes": 132624,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/shop-visual-750.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164537.jpg",
+    "width": 750,
+    "height": 424,
+    "bytes": 92258,
+    "crop": "none; source framing preserved",
+    "usage": "responsive site image"
+  },
+  {
+    "file": "images/brand-menu-960.webp",
+    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164545.jpg",
+    "width": 960,
+    "height": 1706,
+    "bytes": 310454,
+    "crop": "none; source framing preserved",
+    "usage": "SVG viewport displays only existing logo region"
+  }
+]

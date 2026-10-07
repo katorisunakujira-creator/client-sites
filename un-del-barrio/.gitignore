@@ -1,0 +1,10 @@
+# Original uploads and research copies remain in the local workspace.
+/images/originals/
+/references/article-provided.html
+/references/article-provided.txt
+/references/existing-files-sha256.json
+/references/assets-upload-*.json
+
+# Keep validation results; omit generated previews, logs, and ZIP packages.
+/review/*
+!/review/verification.json
