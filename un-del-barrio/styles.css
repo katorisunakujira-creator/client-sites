@@ -170,9 +170,11 @@ address { font-style: normal; }
   .section-note { margin-top: 16px; }
   h2 { font-size: clamp(22px, 6.1vw, 28px); }
   .about { grid-template-columns: 1fr; gap: 27px; }
-  .about__body { width: 100%; max-width: 32rem; margin-inline: auto; padding-top: 0; }
+  .about__body { width: 100%; max-width: 30em; margin-inline: auto; padding-top: 0; }
   .about__lead { font-size: 27px; text-align: center; }
-  .about__body > p:not(.about__lead) { line-height: 2; text-wrap: pretty; }
+  .about__body > p:not(.about__lead) { line-height: 2; text-align: center; text-wrap: balance; }
+  .about__line { display: block; }
+  .about__desktop-break { display: none; }
   .menu-card__english, .menu-card h3 { text-align: center; }
   .menu-card__description { text-align: center; text-wrap: balance; }
   .menu-prices { justify-content: center; }
