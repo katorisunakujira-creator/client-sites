@@ -191,7 +191,6 @@ address { font-style: normal; }
   tbody th { font-size: clamp(10px, 2.8vw, 12px); }
   .hours th, .hours td { padding-block: 18px; padding-inline: 5px; text-align: center; }
   .access dl > div { grid-template-columns: 74px 1fr; }
-  .access .text-link { display: flex; width: fit-content; max-width: 100%; margin-inline: auto; }
   .instagram { display: flex; flex-direction: column; gap: 18px; margin-top: 48px; padding: 28px 22px; text-align: center; }
   .instagram__character { width: 76px; }
   .instagram > div { width: 100%; max-width: 28rem; }
