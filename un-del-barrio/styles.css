@@ -89,6 +89,17 @@ h2 { font-size: clamp(23px, 2.5vw, 34px); font-weight: 600; letter-spacing: -.02
 .menu-prices dt { color: var(--muted); font-size: 11px; }
 .menu-prices dd { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 21px; font-variant-numeric: tabular-nums; }
 .menu-prices dd span { margin-left: 3px; font-family: sans-serif; font-size: 11px; }
+.drinks { max-width: 840px; margin: 56px auto 0; }
+.drinks__heading { text-align: center; }
+.drinks .eyebrow { margin-bottom: 10px; color: var(--accent); }
+.drinks h3 { margin-bottom: 8px; font-size: 23px; }
+.drinks__heading > p:last-child { color: var(--muted); font-size: 12px; }
+.drinks__list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin: 26px 0 0; }
+.drinks__list > div { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0; border-block: 1px solid var(--line); }
+.drinks__list dt { font-size: 15px; font-weight: 600; }
+.drinks__list dt span { display: block; margin-top: 3px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 400; letter-spacing: .08em; color: var(--muted); }
+.drinks__list dd { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 23px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.drinks__list dd span { margin-left: 3px; font-family: sans-serif; font-size: 11px; }
 .takeout { display: grid; grid-template-columns: 200px minmax(0, 1fr); align-items: center; gap: 32px; max-width: 840px; margin: 42px auto 0; padding: 28px; background: var(--surface); }
 .takeout img { width: 100%; height: auto; }
 .takeout__body { min-width: 0; }
@@ -97,7 +108,7 @@ h2 { font-size: clamp(23px, 2.5vw, 34px); font-weight: 600; letter-spacing: -.02
 .menu-note { margin-top: 16px; color: var(--muted); font-size: 12px; line-height: 1.9; }
 .menu-note p { text-wrap: balance; }
 .menu-note p + p { margin-top: 4px; }
-.gallery__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr); grid-template-areas: "counter tacos" "tables tacos"; gap: 28px clamp(24px, 3vw, 44px); align-items: center; }
+.gallery__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); grid-template-areas: "counter tacos" "tables tacos"; gap: 28px clamp(24px, 3vw, 44px); align-items: center; }
 .gallery__counter { grid-area: counter; }
 .gallery__tacos { grid-area: tacos; }
 .gallery__tables { grid-area: tables; }
@@ -126,11 +137,14 @@ address { font-style: normal; }
 .instagram > div { flex: 1; }
 .instagram .eyebrow { margin-bottom: 10px; color: var(--accent); font-size: 10px; }
 .instagram h3 { margin-bottom: 8px; font-size: 18px; }
+.instagram h3 span { display: inline-block; }
 .instagram p:not(.eyebrow) { font-size: 14px; color: var(--muted); }
-.instagram__link { display: flex; justify-content: space-between; align-items: center; gap: 36px; padding-block: 14px; border-bottom: 1px solid var(--ink); text-decoration: none; font-size: 11px; }
-.instagram__link strong { display: block; font-family: Arial, Helvetica, sans-serif; font-size: 21px; font-weight: 500; line-height: 1.6; }
-.instagram__link > span[aria-hidden] { font-size: 23px; }
-.instagram__link:hover, .text-link:hover { color: var(--accent); }
+.instagram__link { display: inline-flex; flex-shrink: 0; justify-content: center; align-items: center; gap: 14px; min-height: 72px; padding: 14px 20px; border-radius: 12px; background: linear-gradient(120deg, #6844b8, #b52a82 45%, #bf3550 75%, #b34a20); color: #fff; text-align: left; text-decoration: none; font-size: 11px; }
+.instagram__link strong { display: block; font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 600; line-height: 1.6; }
+.instagram__icon { width: 30px; height: 30px; flex-shrink: 0; }
+.instagram__arrow { font-size: 20px; line-height: 1; }
+.instagram__link:hover { background: linear-gradient(120deg, #57379c, #98226e 45%, #a32a43 75%, #983d1a); }
+.text-link:hover { color: var(--accent); }
 
 .site-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 32px; padding: 48px var(--gutter); background: var(--ink); color: var(--paper); }
 .wordmark--footer { font-size: 31px; }
@@ -147,7 +161,8 @@ address { font-style: normal; }
   .hero { grid-template-columns: 1fr 1fr; gap: 28px; }
   .menu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 44px 28px; }
   .instagram__character { width: 80px; }
-  .instagram { gap: 20px; padding-inline: 24px; }
+  .instagram { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 20px; padding-inline: 24px; }
+  .instagram__link { grid-column: 2; justify-self: start; }
   .visit__grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   table { font-size: 12px; }
   tbody th { font-size: 11px; }
@@ -192,6 +207,11 @@ address { font-style: normal; }
   .menu-card__english, .menu-card h3 { text-align: center; }
   .menu-card__description { text-align: center; text-wrap: balance; }
   .menu-prices { justify-content: center; }
+  .drinks { max-width: 480px; margin-top: 44px; }
+  .drinks h3 { font-size: 21px; }
+  .drinks__list { grid-template-columns: minmax(0, 1fr); gap: 0; margin-top: 22px; }
+  .drinks__list > div { border-top: 0; }
+  .drinks__list > div:first-child { border-top: 1px solid var(--line); }
   .takeout { grid-template-columns: minmax(0, 1fr); gap: 22px; max-width: 480px; margin-top: 36px; padding: 24px 20px; }
   .takeout img { width: min(100%, 220px); justify-self: center; }
   .takeout__body { text-align: center; }
@@ -212,7 +232,9 @@ address { font-style: normal; }
   .instagram > div { width: 100%; max-width: 28rem; }
   .instagram h3 { font-size: 18px; }
   .instagram p:not(.eyebrow) { text-wrap: pretty; }
-  .instagram__link { width: 100%; max-width: 280px; margin-top: 0; text-align: left; }
+  .instagram__link { width: 100%; max-width: 280px; gap: 12px; margin-top: 0; padding-inline: 16px; }
+  .instagram__link strong { font-size: 18px; }
+  .instagram__icon { width: 26px; height: 26px; }
   .site-footer { display: flex; flex-direction: column; gap: 24px; padding-block: 36px 24px; text-align: center; }
   .site-footer > p { font-size: 10px; }
   .back-to-top { margin-top: 0; }

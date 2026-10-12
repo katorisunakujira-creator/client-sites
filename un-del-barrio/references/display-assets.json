@@ -198,5 +198,23 @@
     "bytes": 105276,
     "crop": "none; original framing retained",
     "usage": "about section photo"
+  },
+  {
+    "file": "images/gallery-tacos-600.webp",
+    "source": "images/originals/upload-20261012-03/IMG_1571.jpeg",
+    "width": 600,
+    "height": 800,
+    "bytes": 139824,
+    "crop": "none; original framing retained",
+    "usage": "gallery taco photo; distinct from the hero image"
+  },
+  {
+    "file": "images/gallery-tacos-1200.webp",
+    "source": "images/originals/upload-20261012-03/IMG_1571.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 443226,
+    "crop": "none; original framing retained",
+    "usage": "gallery taco photo; distinct from the hero image"
   }
 ]
