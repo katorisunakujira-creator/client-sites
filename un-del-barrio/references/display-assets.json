@@ -162,5 +162,41 @@
     "bytes": 148592,
     "crop": "none; original framing retained",
     "usage": "gallery interior photo"
+  },
+  {
+    "file": "images/shop-exterior-480.webp",
+    "source": "images/originals/upload-20261012-02/IMG_1456.jpeg",
+    "width": 480,
+    "height": 640,
+    "bytes": 58040,
+    "crop": "none; original framing retained",
+    "usage": "about section photo"
+  },
+  {
+    "file": "images/shop-exterior-960.webp",
+    "source": "images/originals/upload-20261012-02/IMG_1456.jpeg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 213624,
+    "crop": "none; original framing retained",
+    "usage": "about section photo"
+  },
+  {
+    "file": "images/tacos-moment-480.webp",
+    "source": "images/originals/upload-20261012-02/IMG_1741.PNG",
+    "width": 480,
+    "height": 566,
+    "bytes": 44538,
+    "crop": "none; original framing retained",
+    "usage": "about section photo"
+  },
+  {
+    "file": "images/tacos-moment-960.webp",
+    "source": "images/originals/upload-20261012-02/IMG_1741.PNG",
+    "width": 960,
+    "height": 1132,
+    "bytes": 105276,
+    "crop": "none; original framing retained",
+    "usage": "about section photo"
   }
 ]

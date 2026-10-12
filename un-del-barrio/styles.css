@@ -64,8 +64,12 @@ h2 { font-size: clamp(23px, 2.5vw, 34px); font-weight: 600; letter-spacing: -.02
 .section-heading--row { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 38px; }
 .section-status, .section-note { color: var(--muted); font-size: 12px; }
 .section-status { padding-bottom: 4px; border-bottom: 1px solid var(--line); }
-.about { display: grid; grid-template-columns: 1fr 1.1fr; gap: 60px; }
-.about__body { padding-top: 6px; }
+.about { display: grid; grid-template-columns: 1fr 1.1fr; grid-template-areas: "heading body" "photos body"; gap: 32px 60px; }
+.about > .section-heading { grid-area: heading; }
+.about__photos { grid-area: photos; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.about__photos img { width: 100%; height: auto; }
+.about__photos figcaption { text-wrap: balance; }
+.about__body { grid-area: body; align-self: center; padding-top: 6px; }
 .about__lead { margin-bottom: 22px; font-family: Arial, Helvetica, sans-serif; font-size: 31px; font-weight: 700; line-height: 1.5; letter-spacing: -.04em; }
 .about__lead span { display: block; margin-top: 5px; font-family: -apple-system, BlinkMacSystemFont, "Noto Sans CJK JP", sans-serif; font-size: 11px; font-weight: 400; letter-spacing: .1em; }
 .about__body > p:not(.about__lead) { font-size: 15px; }
@@ -173,7 +177,9 @@ address { font-style: normal; }
   .section-status { display: inline-block; margin-top: 18px; }
   .section-note { margin-top: 16px; }
   h2 { font-size: clamp(22px, 6.1vw, 28px); }
-  .about { grid-template-columns: 1fr; gap: 27px; }
+  .about { grid-template-columns: minmax(0, 1fr); grid-template-areas: "heading" "photos" "body"; gap: 27px; }
+  .about__photos { width: 100%; max-width: 480px; margin-inline: auto; gap: 12px; }
+  .about__photos figcaption { text-align: center; }
   .about__body { width: 100%; max-width: 30em; margin-inline: auto; padding-top: 0; }
   .about__lead { font-size: 27px; text-align: center; }
   .about__body > p:not(.about__lead) { line-height: 2; text-align: center; text-wrap: balance; }
