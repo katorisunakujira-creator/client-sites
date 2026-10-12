@@ -1,23 +1,5 @@
 [
   {
-    "file": "images/tacos-800.webp",
-    "source": "images/originals/メニュー・その他 - コピー/10c82bae-ce8d-4d22-a60c-8521a264610d.jpg",
-    "width": 800,
-    "height": 600,
-    "bytes": 113238,
-    "crop": "none; original framing retained",
-    "orientation": "EXIF applied to display derivative only"
-  },
-  {
-    "file": "images/tacos-1600.webp",
-    "source": "images/originals/メニュー・その他 - コピー/10c82bae-ce8d-4d22-a60c-8521a264610d.jpg",
-    "width": 1600,
-    "height": 1200,
-    "bytes": 310896,
-    "crop": "none; original framing retained",
-    "orientation": "EXIF applied to display derivative only"
-  },
-  {
     "file": "images/shop-bag-600.webp",
     "source": "images/originals/メニュー・その他 - コピー/IMG_1466.jpeg",
     "width": 600,
@@ -146,24 +128,6 @@
     "usage": "gallery interior photo"
   },
   {
-    "file": "images/interior-tables-600.webp",
-    "source": "images/originals/upload-20261012/IMG_7626.JPG",
-    "width": 600,
-    "height": 338,
-    "bytes": 48934,
-    "crop": "none; original framing retained",
-    "usage": "gallery interior photo"
-  },
-  {
-    "file": "images/interior-tables-1200.webp",
-    "source": "images/originals/upload-20261012/IMG_7626.JPG",
-    "width": 1200,
-    "height": 676,
-    "bytes": 148592,
-    "crop": "none; original framing retained",
-    "usage": "gallery interior photo"
-  },
-  {
     "file": "images/shop-exterior-480.webp",
     "source": "images/originals/upload-20261012-02/IMG_1456.jpeg",
     "width": 480,
@@ -216,5 +180,45 @@
     "bytes": 443226,
     "crop": "none; original framing retained",
     "usage": "gallery taco photo; distinct from the hero image"
+  },
+  {
+    "file": "images/hero-tacos-470.webp",
+    "source": "images/originals/upload-20261012-04/IMG_4425-940x705.webp",
+    "width": 470,
+    "height": 352,
+    "bytes": 43102,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only",
+    "usage": "hero photo selected by the user"
+  },
+  {
+    "file": "images/hero-tacos-940.webp",
+    "source": "images/originals/upload-20261012-04/IMG_4425-940x705.webp",
+    "width": 940,
+    "height": 705,
+    "bytes": 85302,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only",
+    "usage": "hero photo selected by the user"
+  },
+  {
+    "file": "images/interior-seating-600.webp",
+    "source": "images/originals/upload-20261012-04/IMG_1451.jpeg",
+    "width": 600,
+    "height": 800,
+    "bytes": 102208,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only",
+    "usage": "gallery table seating replacing the similar counter view"
+  },
+  {
+    "file": "images/interior-seating-1200.webp",
+    "source": "images/originals/upload-20261012-04/IMG_1451.jpeg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 341200,
+    "crop": "none; original framing retained",
+    "orientation": "EXIF applied to display derivative only",
+    "usage": "gallery table seating replacing the similar counter view"
   }
 ]
