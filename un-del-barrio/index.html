@@ -102,8 +102,9 @@
             <caption class="sr-only">曜日ごとの昼・夜の営業時間と定休日</caption>
             <thead><tr><th scope="col">曜日</th><th scope="col">昼</th><th scope="col">夜</th></tr></thead>
             <tbody>
-              <tr><th scope="row">火・水・木・日</th><td><time datetime="11:30">11:30</time>〜<time datetime="15:00">15:00</time></td><td><time datetime="18:00">18:00</time>〜<time datetime="00:00">24:00</time></td></tr>
+              <tr><th scope="row">火・水・木</th><td><time datetime="11:30">11:30</time>〜<time datetime="15:00">15:00</time></td><td><time datetime="18:00">18:00</time>〜<time datetime="00:00">24:00</time></td></tr>
               <tr class="hours__late"><th scope="row">金・土</th><td><time datetime="11:30">11:30</time>〜<time datetime="15:00">15:00</time></td><td><time datetime="18:00">18:00</time>〜<span class="next-day">翌2:00</span></td></tr>
+              <tr><th scope="row">日</th><td><time datetime="11:30">11:30</time>〜<time datetime="15:00">15:00</time></td><td class="hours__closed">営業なし</td></tr>
               <tr><th scope="row">月</th><td colspan="2" class="hours__closed">定休日（昼・夜ともに）</td></tr>
             </tbody>
           </table>
