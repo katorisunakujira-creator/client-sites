@@ -66,7 +66,8 @@ h2 { font-size: clamp(23px, 2.5vw, 34px); font-weight: 600; letter-spacing: -.02
 .section-status { padding-bottom: 4px; border-bottom: 1px solid var(--line); }
 .about { display: grid; grid-template-columns: 1fr 1.1fr; grid-template-areas: "heading body" "photos body"; gap: 32px 60px; }
 .about > .section-heading { grid-area: heading; }
-.about__photos { grid-area: photos; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+/* Match each column to its photo's aspect ratio to align heights without cropping. */
+.about__photos { grid-area: photos; display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, .8481fr); gap: 16px; }
 .about__photos img { width: 100%; height: auto; }
 .about__photos figcaption { text-wrap: balance; }
 .about__body { grid-area: body; align-self: center; padding-top: 6px; }
@@ -88,11 +89,14 @@ h2 { font-size: clamp(23px, 2.5vw, 34px); font-weight: 600; letter-spacing: -.02
 .menu-prices dt { color: var(--muted); font-size: 11px; }
 .menu-prices dd { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 21px; font-variant-numeric: tabular-nums; }
 .menu-prices dd span { margin-left: 3px; font-family: sans-serif; font-size: 11px; }
-.takeout { display: flex; justify-content: center; align-items: center; gap: clamp(28px, 4vw, 56px); margin-top: 42px; }
-.takeout img { width: 240px; height: auto; }
-.takeout__price { font-size: 16px; line-height: 1.8; text-align: center; }
-.takeout__price strong { display: block; margin-top: 8px; font-size: 25px; font-weight: 600; }
-.menu-note { margin-top: 28px; color: var(--muted); font-size: 11px; }
+.takeout { display: grid; grid-template-columns: 200px minmax(0, 1fr); align-items: center; gap: 32px; max-width: 840px; margin: 42px auto 0; padding: 28px; background: var(--surface); }
+.takeout img { width: 100%; height: auto; }
+.takeout__body { min-width: 0; }
+.takeout__price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font-size: 15px; line-height: 1.8; }
+.takeout__price strong { font-size: 24px; font-weight: 600; white-space: nowrap; }
+.menu-note { margin-top: 16px; color: var(--muted); font-size: 12px; line-height: 1.9; }
+.menu-note p { text-wrap: balance; }
+.menu-note p + p { margin-top: 4px; }
 .gallery__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr); grid-template-areas: "counter tacos" "tables tacos"; gap: 28px clamp(24px, 3vw, 44px); align-items: center; }
 .gallery__counter { grid-area: counter; }
 .gallery__tacos { grid-area: tacos; }
@@ -188,10 +192,12 @@ address { font-style: normal; }
   .menu-card__english, .menu-card h3 { text-align: center; }
   .menu-card__description { text-align: center; text-wrap: balance; }
   .menu-prices { justify-content: center; }
-  .takeout { flex-direction: column; gap: 22px; margin-top: 36px; }
-  .takeout img { width: min(100%, 260px); }
-  .menu-note { max-width: 34rem; margin-inline: auto; text-align: center; }
-  .menu-note > p { font-size: 12px; line-height: 1.9; text-wrap: pretty; }
+  .takeout { grid-template-columns: minmax(0, 1fr); gap: 22px; max-width: 480px; margin-top: 36px; padding: 24px 20px; }
+  .takeout img { width: min(100%, 220px); justify-self: center; }
+  .takeout__body { text-align: center; }
+  .takeout__price { justify-content: center; font-size: 14px; }
+  .takeout__price strong { font-size: 22px; }
+  .menu-note span { display: block; }
   .gallery__grid { max-width: 560px; margin-inline: auto; grid-template-columns: minmax(0, 1fr); grid-template-areas: "counter" "tacos" "tables"; gap: 28px; }
   .gallery figcaption { text-align: center; }
   .visit__grid { max-width: 560px; margin-inline: auto; grid-template-columns: 1fr; gap: 42px; margin-top: 32px; }
