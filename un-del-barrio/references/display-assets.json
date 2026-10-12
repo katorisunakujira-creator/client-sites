@@ -24,7 +24,8 @@
     "height": 800,
     "bytes": 77452,
     "crop": "none; original framing retained",
-    "orientation": "EXIF applied to display derivative only"
+    "orientation": "EXIF applied to display derivative only",
+    "usage": "takeout box photo beside the +300 yen box fee"
   },
   {
     "file": "images/shop-bag-1200.webp",
@@ -33,7 +34,8 @@
     "height": 1600,
     "bytes": 260596,
     "crop": "none; original framing retained",
-    "orientation": "EXIF applied to display derivative only"
+    "orientation": "EXIF applied to display derivative only",
+    "usage": "takeout box photo beside the +300 yen box fee"
   },
   {
     "file": "images/welcome-320.webp",
@@ -117,15 +119,6 @@
     "usage": "responsive site image"
   },
   {
-    "file": "images/shop-visual-750.webp",
-    "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164537.jpg",
-    "width": 750,
-    "height": 424,
-    "bytes": 92258,
-    "crop": "none; source framing preserved",
-    "usage": "responsive site image"
-  },
-  {
     "file": "images/brand-menu-960.webp",
     "source": "images/originals/upload-03/メニュー・その他 - コピー/line_oa_chat_260807_164545.jpg",
     "width": 960,
@@ -133,5 +126,41 @@
     "bytes": 310454,
     "crop": "none; source framing preserved",
     "usage": "SVG viewport displays only existing logo region"
+  },
+  {
+    "file": "images/interior-counter-600.webp",
+    "source": "images/originals/upload-20261012/IMG_7624.JPG",
+    "width": 600,
+    "height": 338,
+    "bytes": 51314,
+    "crop": "none; original framing retained",
+    "usage": "gallery interior photo"
+  },
+  {
+    "file": "images/interior-counter-1200.webp",
+    "source": "images/originals/upload-20261012/IMG_7624.JPG",
+    "width": 1200,
+    "height": 676,
+    "bytes": 166518,
+    "crop": "none; original framing retained",
+    "usage": "gallery interior photo"
+  },
+  {
+    "file": "images/interior-tables-600.webp",
+    "source": "images/originals/upload-20261012/IMG_7626.JPG",
+    "width": 600,
+    "height": 338,
+    "bytes": 48934,
+    "crop": "none; original framing retained",
+    "usage": "gallery interior photo"
+  },
+  {
+    "file": "images/interior-tables-1200.webp",
+    "source": "images/originals/upload-20261012/IMG_7626.JPG",
+    "width": 1200,
+    "height": 676,
+    "bytes": 148592,
+    "crop": "none; original framing retained",
+    "usage": "gallery interior photo"
   }
 ]
